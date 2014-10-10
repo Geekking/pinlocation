@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18664D1D19E7A8A300F8F9E4 /* Trace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18664D1C19E7A8A300F8F9E4 /* Trace.swift */; };
+		18664D1F19E7A99B00F8F9E4 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18664D1E19E7A99B00F8F9E4 /* Location.swift */; };
+		18664D2119E7AEA900F8F9E4 /* DataUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18664D2019E7AEA900F8F9E4 /* DataUtil.swift */; };
+		18664D2319E7B12700F8F9E4 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18664D2219E7B12700F8F9E4 /* MainTableViewCell.swift */; };
+		187DCBB019E7CF7300732D46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187DCBAF19E7CF7300732D46 /* UIKit.framework */; };
+		187DCBB219E7D00700732D46 /* MainPageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DCBB119E7D00700732D46 /* MainPageTableViewController.swift */; };
+		187DCBB619E7D33E00732D46 /* AroundLandMarkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DCBB519E7D33E00732D46 /* AroundLandMarkTableViewController.swift */; };
+		187DCBB819E7D34E00732D46 /* UserInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DCBB719E7D34E00732D46 /* UserInfoTableViewController.swift */; };
+		187DCBBA19E7D52100732D46 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DCBB919E7D52100732D46 /* ComposeViewController.swift */; };
 		18F85D2819E58EF100FDB2E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F85D2719E58EF100FDB2E6 /* AppDelegate.swift */; };
-		18F85D2A19E58EF100FDB2E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F85D2919E58EF100FDB2E6 /* ViewController.swift */; };
 		18F85D2D19E58EF100FDB2E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F85D2B19E58EF100FDB2E6 /* Main.storyboard */; };
 		18F85D2F19E58EF100FDB2E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F85D2E19E58EF100FDB2E6 /* Images.xcassets */; };
 		18F85D3B19E58EF200FDB2E6 /* PinLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F85D3A19E58EF200FDB2E6 /* PinLocationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		187DCBAA19E7CB0800732D46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F85D1A19E58EF100FDB2E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F85D2119E58EF100FDB2E6;
+			remoteInfo = PinLocation;
+		};
 		18F85D3519E58EF200FDB2E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 18F85D1A19E58EF100FDB2E6 /* Project object */;
@@ -25,10 +40,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18664D1C19E7A8A300F8F9E4 /* Trace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trace.swift; sourceTree = "<group>"; };
+		18664D1E19E7A99B00F8F9E4 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		18664D2019E7AEA900F8F9E4 /* DataUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataUtil.swift; sourceTree = "<group>"; };
+		18664D2219E7B12700F8F9E4 /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		187DCBAF19E7CF7300732D46 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		187DCBB119E7D00700732D46 /* MainPageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageTableViewController.swift; sourceTree = "<group>"; };
+		187DCBB519E7D33E00732D46 /* AroundLandMarkTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AroundLandMarkTableViewController.swift; sourceTree = "<group>"; };
+		187DCBB719E7D34E00732D46 /* UserInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoTableViewController.swift; sourceTree = "<group>"; };
+		187DCBB919E7D52100732D46 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		18F85D2219E58EF100FDB2E6 /* PinLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F85D2619E58EF100FDB2E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F85D2719E58EF100FDB2E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18F85D2919E58EF100FDB2E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18F85D2C19E58EF100FDB2E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18F85D2E19E58EF100FDB2E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18F85D3419E58EF200FDB2E6 /* PinLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187DCBB019E7CF7300732D46 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,9 +78,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18664D1719E7A72B00F8F9E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18F85D2B19E58EF100FDB2E6 /* Main.storyboard */,
+				18664D2219E7B12700F8F9E4 /* MainTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		18664D1819E7A73300F8F9E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				187DCBB119E7D00700732D46 /* MainPageTableViewController.swift */,
+				187DCBB519E7D33E00732D46 /* AroundLandMarkTableViewController.swift */,
+				187DCBB719E7D34E00732D46 /* UserInfoTableViewController.swift */,
+				187DCBB919E7D52100732D46 /* ComposeViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		18664D1919E7A73A00F8F9E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18664D1C19E7A8A300F8F9E4 /* Trace.swift */,
+				18664D1E19E7A99B00F8F9E4 /* Location.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		18664D2419E7B24300F8F9E4 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				18664D2019E7AEA900F8F9E4 /* DataUtil.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		18F85D1919E58EF100FDB2E6 = {
 			isa = PBXGroup;
 			children = (
+				187DCBAF19E7CF7300732D46 /* UIKit.framework */,
 				18F85D2419E58EF100FDB2E6 /* PinLocation */,
 				18F85D3719E58EF200FDB2E6 /* PinLocationTests */,
 				18F85D2319E58EF100FDB2E6 /* Products */,
@@ -75,9 +137,11 @@
 		18F85D2419E58EF100FDB2E6 /* PinLocation */ = {
 			isa = PBXGroup;
 			children = (
+				18664D2419E7B24300F8F9E4 /* Util */,
+				18664D1919E7A73A00F8F9E4 /* Model */,
+				18664D1819E7A73300F8F9E4 /* Controller */,
+				18664D1719E7A72B00F8F9E4 /* View */,
 				18F85D2719E58EF100FDB2E6 /* AppDelegate.swift */,
-				18F85D2919E58EF100FDB2E6 /* ViewController.swift */,
-				18F85D2B19E58EF100FDB2E6 /* Main.storyboard */,
 				18F85D2E19E58EF100FDB2E6 /* Images.xcassets */,
 				18F85D2519E58EF100FDB2E6 /* Supporting Files */,
 			);
@@ -141,6 +205,7 @@
 			);
 			dependencies = (
 				18F85D3619E58EF200FDB2E6 /* PBXTargetDependency */,
+				187DCBAB19E7CB0800732D46 /* PBXTargetDependency */,
 			);
 			name = PinLocationTests;
 			productName = PinLocationTests;
@@ -208,8 +273,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F85D2A19E58EF100FDB2E6 /* ViewController.swift in Sources */,
+				187DCBBA19E7D52100732D46 /* ComposeViewController.swift in Sources */,
+				18664D2119E7AEA900F8F9E4 /* DataUtil.swift in Sources */,
+				18664D1D19E7A8A300F8F9E4 /* Trace.swift in Sources */,
+				187DCBB819E7D34E00732D46 /* UserInfoTableViewController.swift in Sources */,
+				18664D2319E7B12700F8F9E4 /* MainTableViewCell.swift in Sources */,
+				187DCBB219E7D00700732D46 /* MainPageTableViewController.swift in Sources */,
+				18664D1F19E7A99B00F8F9E4 /* Location.swift in Sources */,
 				18F85D2819E58EF100FDB2E6 /* AppDelegate.swift in Sources */,
+				187DCBB619E7D33E00732D46 /* AroundLandMarkTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +296,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		187DCBAB19E7CB0800732D46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F85D2119E58EF100FDB2E6 /* PinLocation */;
+			targetProxy = 187DCBAA19E7CB0800732D46 /* PBXContainerItemProxy */;
+		};
 		18F85D3619E58EF200FDB2E6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 18F85D2119E58EF100FDB2E6 /* PinLocation */;
@@ -326,6 +403,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = PinLocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -337,6 +415,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = PinLocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -395,6 +474,7 @@
 				18F85D4019E58EF200FDB2E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18F85D4119E58EF200FDB2E6 /* Build configuration list for PBXNativeTarget "PinLocationTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +483,7 @@
 				18F85D4319E58EF200FDB2E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
