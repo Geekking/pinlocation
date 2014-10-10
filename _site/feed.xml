@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Geekking blog</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+    <description>Welcome to my project Blog. Donate
 </description>
-    <link>http://geekking.github.io/</link>
-    <atom:link href="http://geekking.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 10 Oct 2014 01:51:16 +0800</pubDate>
-    <lastBuildDate>Fri, 10 Oct 2014 01:51:16 +0800</lastBuildDate>
+    <link>/pinlocation/</link>
+    <atom:link href="/pinlocation/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 10 Oct 2014 11:22:38 +0800</pubDate>
+    <lastBuildDate>Fri, 10 Oct 2014 11:22:38 +0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -71,8 +71,8 @@
 
 </description>
         <pubDate>Fri, 10 Oct 2014 22:10:00 +0800</pubDate>
-        <link>http://geekking.github.io/2014/10/10/Hell-Word.html</link>
-        <guid isPermaLink="true">http://geekking.github.io/2014/10/10/Hell-Word.html</guid>
+        <link>/pinlocation/2014/10/10/Hell-Word.html</link>
+        <guid isPermaLink="true">/pinlocation/2014/10/10/Hell-Word.html</guid>
         
         
       </item>
@@ -95,8 +95,8 @@
 
 </description>
         <pubDate>Thu, 09 Oct 2014 09:25:37 +0800</pubDate>
-        <link>http://geekking.github.io/jekyll/update/2014/10/09/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://geekking.github.io/jekyll/update/2014/10/09/welcome-to-jekyll.html</guid>
+        <link>/pinlocation/jekyll/update/2014/10/09/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">/pinlocation/jekyll/update/2014/10/09/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
