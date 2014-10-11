@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1818B3D919E8C12D0025127B /* PLDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1818B3D719E8C12D0025127B /* PLDrawerViewController.swift */; };
+		1818B3DA19E8C12D0025127B /* PLDrawerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1818B3D819E8C12D0025127B /* PLDrawerViewController.xib */; };
+		1818B3DF19E8C1AC0025127B /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1818B3DD19E8C1AC0025127B /* HomeTableViewController.swift */; };
+		1818B3E019E8C1AC0025127B /* HomeTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1818B3DE19E8C1AC0025127B /* HomeTableViewController.xib */; };
+		1818B3E319E8C1F40025127B /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1818B3E119E8C1F40025127B /* HomeTableViewCell.swift */; };
+		1818B3E419E8C1F40025127B /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1818B3E219E8C1F40025127B /* HomeTableViewCell.xib */; };
+		1818B3E719E8C25C0025127B /* DrawerContentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1818B3E519E8C25C0025127B /* DrawerContentTableViewController.swift */; };
+		1818B3E819E8C25C0025127B /* DrawerContentTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1818B3E619E8C25C0025127B /* DrawerContentTableViewController.xib */; };
+		1818B3EA19E8D5800025127B /* UIImageViewWebExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1818B3E919E8D5800025127B /* UIImageViewWebExt.swift */; };
+		1818B3EC19E8D5E70025127B /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 1818B3EB19E8D5E70025127B /* avatar.png */; };
+		1818B3EE19E8D61F0025127B /* FileUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1818B3ED19E8D61F0025127B /* FileUtility.swift */; };
 		18664D1D19E7A8A300F8F9E4 /* Trace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18664D1C19E7A8A300F8F9E4 /* Trace.swift */; };
 		18664D1F19E7A99B00F8F9E4 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18664D1E19E7A99B00F8F9E4 /* Location.swift */; };
 		18664D2119E7AEA900F8F9E4 /* DataUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18664D2019E7AEA900F8F9E4 /* DataUtil.swift */; };
-		18664D2319E7B12700F8F9E4 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18664D2219E7B12700F8F9E4 /* MainTableViewCell.swift */; };
+		1868122D19E82F0300D989CD /* hamburger.png in Resources */ = {isa = PBXBuildFile; fileRef = 1868122C19E82F0300D989CD /* hamburger.png */; };
 		187DCBB019E7CF7300732D46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187DCBAF19E7CF7300732D46 /* UIKit.framework */; };
-		187DCBB219E7D00700732D46 /* MainPageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DCBB119E7D00700732D46 /* MainPageTableViewController.swift */; };
-		187DCBB619E7D33E00732D46 /* AroundLandMarkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DCBB519E7D33E00732D46 /* AroundLandMarkTableViewController.swift */; };
-		187DCBB819E7D34E00732D46 /* UserInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DCBB719E7D34E00732D46 /* UserInfoTableViewController.swift */; };
-		187DCBBA19E7D52100732D46 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187DCBB919E7D52100732D46 /* ComposeViewController.swift */; };
 		18F85D2819E58EF100FDB2E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F85D2719E58EF100FDB2E6 /* AppDelegate.swift */; };
-		18F85D2D19E58EF100FDB2E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F85D2B19E58EF100FDB2E6 /* Main.storyboard */; };
 		18F85D2F19E58EF100FDB2E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F85D2E19E58EF100FDB2E6 /* Images.xcassets */; };
 		18F85D3B19E58EF200FDB2E6 /* PinLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F85D3A19E58EF200FDB2E6 /* PinLocationTests.swift */; };
 /* End PBXBuildFile section */
@@ -40,19 +46,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1818B3D719E8C12D0025127B /* PLDrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PLDrawerViewController.swift; sourceTree = "<group>"; };
+		1818B3D819E8C12D0025127B /* PLDrawerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLDrawerViewController.xib; sourceTree = "<group>"; };
+		1818B3DD19E8C1AC0025127B /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		1818B3DE19E8C1AC0025127B /* HomeTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewController.xib; sourceTree = "<group>"; };
+		1818B3E119E8C1F40025127B /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		1818B3E219E8C1F40025127B /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		1818B3E519E8C25C0025127B /* DrawerContentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerContentTableViewController.swift; sourceTree = "<group>"; };
+		1818B3E619E8C25C0025127B /* DrawerContentTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawerContentTableViewController.xib; sourceTree = "<group>"; };
+		1818B3E919E8D5800025127B /* UIImageViewWebExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewWebExt.swift; sourceTree = "<group>"; };
+		1818B3EB19E8D5E70025127B /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
+		1818B3ED19E8D61F0025127B /* FileUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUtility.swift; sourceTree = "<group>"; };
 		18664D1C19E7A8A300F8F9E4 /* Trace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trace.swift; sourceTree = "<group>"; };
 		18664D1E19E7A99B00F8F9E4 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		18664D2019E7AEA900F8F9E4 /* DataUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataUtil.swift; sourceTree = "<group>"; };
-		18664D2219E7B12700F8F9E4 /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		1868122C19E82F0300D989CD /* hamburger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburger.png; sourceTree = "<group>"; };
 		187DCBAF19E7CF7300732D46 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		187DCBB119E7D00700732D46 /* MainPageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageTableViewController.swift; sourceTree = "<group>"; };
-		187DCBB519E7D33E00732D46 /* AroundLandMarkTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AroundLandMarkTableViewController.swift; sourceTree = "<group>"; };
-		187DCBB719E7D34E00732D46 /* UserInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoTableViewController.swift; sourceTree = "<group>"; };
-		187DCBB919E7D52100732D46 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		18F85D2219E58EF100FDB2E6 /* PinLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F85D2619E58EF100FDB2E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F85D2719E58EF100FDB2E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18F85D2C19E58EF100FDB2E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18F85D2E19E58EF100FDB2E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18F85D3419E58EF200FDB2E6 /* PinLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F85D3919E58EF200FDB2E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,8 +93,8 @@
 		18664D1719E7A72B00F8F9E4 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				18F85D2B19E58EF100FDB2E6 /* Main.storyboard */,
-				18664D2219E7B12700F8F9E4 /* MainTableViewCell.swift */,
+				1818B3E119E8C1F40025127B /* HomeTableViewCell.swift */,
+				1818B3E219E8C1F40025127B /* HomeTableViewCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -90,10 +102,10 @@
 		18664D1819E7A73300F8F9E4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				187DCBB119E7D00700732D46 /* MainPageTableViewController.swift */,
-				187DCBB519E7D33E00732D46 /* AroundLandMarkTableViewController.swift */,
-				187DCBB719E7D34E00732D46 /* UserInfoTableViewController.swift */,
-				187DCBB919E7D52100732D46 /* ComposeViewController.swift */,
+				1818B3DD19E8C1AC0025127B /* HomeTableViewController.swift */,
+				1818B3DE19E8C1AC0025127B /* HomeTableViewController.xib */,
+				1818B3E519E8C25C0025127B /* DrawerContentTableViewController.swift */,
+				1818B3E619E8C25C0025127B /* DrawerContentTableViewController.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -110,9 +122,22 @@
 		18664D2419E7B24300F8F9E4 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				1818B3ED19E8D61F0025127B /* FileUtility.swift */,
+				1818B3E919E8D5800025127B /* UIImageViewWebExt.swift */,
 				18664D2019E7AEA900F8F9E4 /* DataUtil.swift */,
+				1818B3D719E8C12D0025127B /* PLDrawerViewController.swift */,
+				1818B3D819E8C12D0025127B /* PLDrawerViewController.xib */,
 			);
 			name = Util;
+			sourceTree = "<group>";
+		};
+		1868122B19E82EE400D989CD /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				1818B3EB19E8D5E70025127B /* avatar.png */,
+				1868122C19E82F0300D989CD /* hamburger.png */,
+			);
+			name = imgs;
 			sourceTree = "<group>";
 		};
 		18F85D1919E58EF100FDB2E6 = {
@@ -137,6 +162,7 @@
 		18F85D2419E58EF100FDB2E6 /* PinLocation */ = {
 			isa = PBXGroup;
 			children = (
+				1868122B19E82EE400D989CD /* imgs */,
 				18664D2419E7B24300F8F9E4 /* Util */,
 				18664D1919E7A73A00F8F9E4 /* Model */,
 				18664D1819E7A73300F8F9E4 /* Controller */,
@@ -254,8 +280,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F85D2D19E58EF100FDB2E6 /* Main.storyboard in Resources */,
+				1818B3E819E8C25C0025127B /* DrawerContentTableViewController.xib in Resources */,
+				1818B3EC19E8D5E70025127B /* avatar.png in Resources */,
+				1818B3E019E8C1AC0025127B /* HomeTableViewController.xib in Resources */,
+				1868122D19E82F0300D989CD /* hamburger.png in Resources */,
 				18F85D2F19E58EF100FDB2E6 /* Images.xcassets in Resources */,
+				1818B3E419E8C1F40025127B /* HomeTableViewCell.xib in Resources */,
+				1818B3DA19E8C12D0025127B /* PLDrawerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,15 +304,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187DCBBA19E7D52100732D46 /* ComposeViewController.swift in Sources */,
+				1818B3E719E8C25C0025127B /* DrawerContentTableViewController.swift in Sources */,
+				1818B3DF19E8C1AC0025127B /* HomeTableViewController.swift in Sources */,
+				1818B3D919E8C12D0025127B /* PLDrawerViewController.swift in Sources */,
+				1818B3EA19E8D5800025127B /* UIImageViewWebExt.swift in Sources */,
+				1818B3EE19E8D61F0025127B /* FileUtility.swift in Sources */,
 				18664D2119E7AEA900F8F9E4 /* DataUtil.swift in Sources */,
+				1818B3E319E8C1F40025127B /* HomeTableViewCell.swift in Sources */,
 				18664D1D19E7A8A300F8F9E4 /* Trace.swift in Sources */,
-				187DCBB819E7D34E00732D46 /* UserInfoTableViewController.swift in Sources */,
-				18664D2319E7B12700F8F9E4 /* MainTableViewCell.swift in Sources */,
-				187DCBB219E7D00700732D46 /* MainPageTableViewController.swift in Sources */,
 				18664D1F19E7A99B00F8F9E4 /* Location.swift in Sources */,
 				18F85D2819E58EF100FDB2E6 /* AppDelegate.swift in Sources */,
-				187DCBB619E7D33E00732D46 /* AroundLandMarkTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,17 +339,6 @@
 			targetProxy = 18F85D3519E58EF200FDB2E6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		18F85D2B19E58EF100FDB2E6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18F85D2C19E58EF100FDB2E6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		18F85D3C19E58EF200FDB2E6 /* Debug */ = {

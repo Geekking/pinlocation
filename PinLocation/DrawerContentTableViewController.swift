@@ -1,15 +1,15 @@
 //
-//  UserInfoTableViewController.swift
+//  DrawerContentTableViewController.swift
 //  PinLocation
 //
-//  Created by apple on 10/10/14.
+//  Created by apple on 10/11/14.
 //  Copyright (c) 2014 SYSU. All rights reserved.
 //
 
 import UIKit
 
-class UserInfoTableViewController: UITableViewController {
-
+class DrawerContentTableViewController: UITableViewController {
+        
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -93,5 +93,5 @@ class UserInfoTableViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
 }

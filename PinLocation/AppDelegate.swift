@@ -12,13 +12,62 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
                             
     var window: UIWindow?
-
+    var drawerViewController:PLDrawerViewController?
+    
     func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
         // Override point for customization after application launch.
-        println("\(MainPageTableViewController.description())")
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        // Override point for customization after application launch.
+        
+        //self.window!.backgroundColor = UIColor.whiteColor()
+        
+        self.drawerViewController = PLDrawerViewController()
+        
+        var homeViewController:HomePageTableViewController = HomePageTableViewController()
+        
+        var navCtl:UINavigationController = UINavigationController(rootViewController: homeViewController)
+        
+        
+        var drawerContent:DrawerContentTableViewController = DrawerContentTableViewController()
+        
+        drawerViewController!.centerViewController = navCtl
+        drawerViewController!.contentViewController = drawerContent
+        
+        //添加导航栏按钮
+        var image  = UIImage(named:"hamburger.png");
+        
+        var button  =  UIButton.buttonWithType(UIButtonType.System) as? UIButton
+        
+        button!.frame =  CGRectMake(0, 0, 44.0, 44.0)
+        
+        button!.addTarget(self,action:"tappedButton:",
+            forControlEvents:UIControlEvents.TouchUpInside)
+        
+        button!.setImage(image,forState:UIControlState.Normal)
+        
+        
+        var barButton =  UIBarButtonItem(customView: button)
+        
+        //为什么不能是navCtrl
+        homeViewController.navigationItem.leftBarButtonItem = barButton
+        
+        self.window!.rootViewController = drawerViewController
+        
+        self.window!.makeKeyAndVisible()
+        
         return true
+        
     }
-
+    
+    //导航栏按钮事件
+    func tappedButton(button : UIButton){
+        if (drawerViewController!.drawerState == DrawerState.DrawerStateOpening){
+            drawerViewController!.didClose()
+        }else{
+            drawerViewController!.didOpen()
+        }
+    }
+    
     func applicationWillResignActive(application: UIApplication!) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

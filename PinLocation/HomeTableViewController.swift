@@ -8,13 +8,19 @@
 
 import UIKit
 
-class MainPageTableViewController: UITableViewController {
-    var traces:[Trace] = []
+class HomePageTableViewController: UITableViewController {
+    
+    var traces:[Trace]! = []
+    let cellid:String = "HomeTableViewCell"
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor.whiteColor()
+        
         self.traces = DataUtil.LoadMainTableData()
-        println("hello world")
+        var nib = UINib(nibName:"HomeTableViewCell", bundle: nil)
+        self.tableView?.registerNib(nib, forCellReuseIdentifier: cellid)
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
         
@@ -38,22 +44,20 @@ class MainPageTableViewController: UITableViewController {
     override func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
-        println("\(self.traces.count)")
         return self.traces.count
     }
-    
+    override func tableView(tableView: UITableView!, heightForRowAtIndexPath indexPath: NSIndexPath!) -> CGFloat
+    {
+        return 202
+    }
     override func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell? {
-        let cellid:String = "MainTraceCell"
-        var cell = tableView.dequeueReusableCellWithIdentifier(cellid, forIndexPath: indexPath) as? MainTableViewCell
+        
+        var cell = tableView.dequeueReusableCellWithIdentifier(cellid,forIndexPath: indexPath) as? HomeTableViewCell
         // Configure the cell...
         
-        if cell == nil{
-            cell!.config(self.traces[indexPath.row])
-            println("hello")
-        }else{
-            cell = MainTableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: cellid)
-            cell!.config(self.traces[indexPath.row])
-        }
+        cell!.trace = self.traces[indexPath.row]
+        cell!.tag = indexPath.row
+        
         println("hello")
         
         return cell
@@ -103,5 +107,6 @@ class MainPageTableViewController: UITableViewController {
     // Pass the selected object to the new view controller.
     }
     */
+    
     
 }

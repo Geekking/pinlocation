@@ -9,12 +9,12 @@
 import UIKit
 
 class Trace: NSObject {
-    var username:String  = "luyou"
-    var datetime:Double
-    var snippet:String   = "良辰美景"
-    var location:Location
+    var username:String!  = "luyou"
+    var datetime:Double!
+    var snippet:String!   = "良辰美景"
+    var location:Location?
     
-    init(musername:String,msnippet:String,mlocation:Location,mdatetime:Double?){
+    init(musername:String!,msnippet:String!,mlocation:Location?,mdatetime:Double?){
         self.username = musername
         self.snippet = msnippet
         self.location = mlocation

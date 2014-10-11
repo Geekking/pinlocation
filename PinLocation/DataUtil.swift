@@ -29,6 +29,11 @@ class DataUtil: NSObject {
         var mlocation:Location = Location(mlongtitude:22.4,mlatitude:121.0,mlandmark:"黄鹤楼",mcity:"广州",mdescript:"古人嘉禾黄鹤楼")
         var trace  = Trace(musername:"陆游",msnippet:msnippet,mlocation:mlocation,mdatetime:11.0)
         traces.append(trace)
+        traces.append(trace)
+        
+        traces.append(trace)
+        traces.append(trace)
+        
         return traces
     }
     
