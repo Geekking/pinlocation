@@ -14,6 +14,10 @@ class PoetItem(scrapy.Item):
 	name = scrapy.Field()
 	setUrl =  scrapy.Field()
 	descrip =  scrapy.Field()
+	sumup   = scrapy.Field()
+	image_urls = scrapy.Field()
+	image_paths = scrapy.Field()
+
 
 
 

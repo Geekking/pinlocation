@@ -1,1 +1,7 @@
 *.app
+*.jpg
+*.jpeg
+*.png
+*.so
+*.tar
+*.pyc
