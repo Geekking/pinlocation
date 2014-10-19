@@ -22,7 +22,7 @@ IMAGES_STORE = './images'
 
 ITEM_PIPELINES = {
 	'poetry_share.pipelines.JsonWriterPipeline':100,
-	'poetry_share.pipelines.MyImagesPipeline':200,
+	#'poetry_share.pipelines.MyImagesPipeline':200,
 	'poetry_share.pipelines.DataBaseWriterPipeline':300,
 	
 
